@@ -1,7 +1,12 @@
-<<<<<<< HEAD
 h1 {
-    color: blue;
+    color: rgb(34, 122, 48);
+    font-family: "Quicksand";
+    font-size: 65px;
+    text-align: center;
 }
-=======
-/* this is the CSS file
->>>>>>> 32d482b38e5ff5a4bbbd9ca9d7e566a98fe96ee4
+
+h2 {
+    color: rgb(34, 162, 120);
+    font-family: "Quicksand";
+    text-align: center;
+}
