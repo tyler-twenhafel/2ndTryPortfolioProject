@@ -10,3 +10,23 @@ h2 {
     font-family: "Quicksand";
     text-align: center;
 }
+
+.main_section {
+    
+}
+
+#pat_st_img {
+    width: 700px;
+    float: right;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+#about_me {
+    width: 50%;
+    display: inline-block;
+    font-size: 19px;
+    margin: 50px;
+    font-family: "Quicksand";
+    border: 5px solid black;
+}
