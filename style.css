@@ -1,25 +1,27 @@
+body {
+    background-color: rgb(86, 163, 202);
+}
+
 h1 {
-    color: rgb(34, 122, 48);
+    color: rgb(179, 103, 62);
     font-family: "Quicksand";
     font-size: 65px;
     text-align: center;
 }
 
 h2 {
-    color: rgb(34, 162, 120);
+    color: rgb(25, 46, 39);
     font-family: "Quicksand";
     text-align: center;
 }
 
-.main_section {
-    
-}
-
 #pat_st_img {
-    width: 700px;
+    width: 575px;
     float: right;
     display: inline-block;
-    margin-right: 50px;
+    margin-right: 150px;
+    margin-top: 50px;
+    border: 5px solid black;
 }
 
 #about_me {
@@ -28,5 +30,46 @@ h2 {
     font-size: 19px;
     margin: 50px;
     font-family: "Quicksand";
+    border: 5px solid black;
+}
+
+.languages {
+    border: 5px solid black;
+}
+
+#languages_img {
+    width: 350px;
+    margin: 75px;
+}
+
+#languages_text {
+    font-family: "Quicksand";
+    font-size: 25px;
+    display: inline;
+}
+
+.projects_title {
+    text-align: center;
+    font-family: "Quicksand";
+    font-size: 35px;
+    color: rgb(53, 70, 56)
+}
+
+#form_a_story_img {
+    width: 500px;
+    margin: 50px;
+    border: 5px solid black;
+}
+
+#piano_keys_img {
+    width: 500px;
+    margin: 50px;
+    border: 5px solid black;
+
+}
+
+#club_website_img {
+    width: 500px;
+    margin: 50px;
     border: 5px solid black;
 }
