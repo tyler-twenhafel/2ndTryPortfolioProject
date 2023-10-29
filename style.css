@@ -3,7 +3,7 @@ body {
 }
 
 h1 {
-    color: rgb(179, 103, 62);
+    color: maroon;
     font-family: "Quicksand";
     font-size: 65px;
     text-align: center;
@@ -15,26 +15,42 @@ h2 {
     text-align: center;
 }
 
-#pat_st_img {
-    width: 575px;
+#frederick_img {
+    width: 550px;
     float: right;
     display: inline-block;
-    margin-right: 150px;
-    margin-top: 50px;
+    margin-right: 70px;
+    margin-top: 75px;
     border: 5px solid black;
+}
+
+.fred_img_text {
+    position: absolute;
+    bottom: 150px;
+    left: 900px;
+    color: white;
+    background-color: gray;
 }
 
 #about_me {
     width: 50%;
+    height: 360px;
     display: inline-block;
-    font-size: 19px;
-    margin: 50px;
+    text-align: center;
+    font-size: 55px;
     font-family: "Quicksand";
-    border: 5px solid black;
+    color: maroon;
+    border: 5px dashed black;
+    margin: 30px;
+    margin-top: 80px;
 }
 
 .languages {
     border: 5px solid black;
+    display: grid;
+    width: 500px;
+    grid-template-columns: 500px 1200px;
+    margin-left: 30px;
 }
 
 #languages_img {
@@ -45,31 +61,54 @@ h2 {
 #languages_text {
     font-family: "Quicksand";
     font-size: 25px;
-    display: inline;
-}
-
-.projects_title {
-    text-align: center;
-    font-family: "Quicksand";
-    font-size: 35px;
-    color: rgb(53, 70, 56)
+    margin-left: 100px;
+    margin-top: 50px;
+    width: 800px;
 }
 
 #form_a_story_img {
-    width: 500px;
-    margin: 50px;
+    width: 400px;
+    margin: 30px;
     border: 5px solid black;
 }
 
 #piano_keys_img {
-    width: 500px;
-    margin: 50px;
+    width: 400px;
+    margin: 30px;
     border: 5px solid black;
 
 }
 
 #club_website_img {
-    width: 500px;
-    margin: 50px;
+    width: 400px;
+    margin: 30px;
     border: 5px solid black;
+}
+
+.grid {
+    display: grid;
+    width: 500px;
+    grid-template-columns: 350px 350px 350px;
+    column-gap: 125px;
+    margin-left: 60px;
+}
+
+#form_a_story_about {
+    font-family: "Quicksand";
+    font-size: 25px;
+}
+
+#piano_keys_about {
+    font-family: "Quicksand";
+    font-size: 25px;
+}
+
+#club_website_about {
+    font-family: "Quicksand";
+    font-size: 25px;
+}
+
+.contact_link {
+    font-size: 25px;
+    color: maroon;
 }
