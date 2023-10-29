@@ -5,51 +5,51 @@ body {
 .about_title {
     color: maroon;
     font-family: "Quicksand";
-    font-size: 50px;
-    margin-left: 25px;
+    font-size: 3.25em;
+    margin-left: 1.5em;
 }
 
 .about {
     font-family: "Quicksand";
-    font-size: 20px;
+    font-size: 1.25em;
 }
 
 .languages {
     display: grid;
-    width: 500px;
-    grid-template-columns: 500px 1200px;
-    margin-left: 30px;
+    width: 31.25em;
+    grid-template-columns: 31.25em 75em;
+    margin-left: 1.8em;
 }
 
 #languages_img {
-    width: 400px;
-    margin: 75px;
+    width: 25em;
+    margin: 5em;
 }
 
 #languages_text {
     font-family: "Quicksand";
-    font-size: 25px;
-    margin-left: 100px;
-    margin-top: 70px;
-    width: 800px;
+    font-size: 1.65em;
+    margin-left: 4em;
+    margin-top: 2.8em;
+    width: 30em;
 }
 
 .contact_title {
     color: maroon;
     font-family: "Quicksand";
-    font-size: 50px;
-    margin-left: 25px;
+    font-size: 3.25em;
+    margin-left: 1.5em;
 }
 
 .contact_section {
     font-family: "Quicksand";
-    font-size: 25px;
-    width: 400px;
-    margin-left: 25px;
+    font-size: 1.75em;
+    width: 25em;
+    margin-left: 1.75em;
 }
 
 .home_button {
     font-family: "Quicksand";
-    font-size: 25px;
+    font-size: 1.75em;
     color: maroon;
 }
