@@ -45,27 +45,6 @@ h2 {
     margin-top: 80px;
 }
 
-.languages {
-    border: 5px solid black;
-    display: grid;
-    width: 500px;
-    grid-template-columns: 500px 1200px;
-    margin-left: 30px;
-}
-
-#languages_img {
-    width: 350px;
-    margin: 75px;
-}
-
-#languages_text {
-    font-family: "Quicksand";
-    font-size: 25px;
-    margin-left: 100px;
-    margin-top: 50px;
-    width: 800px;
-}
-
 #form_a_story_img {
     width: 400px;
     margin: 30px;
@@ -110,5 +89,6 @@ h2 {
 
 .contact_link {
     font-size: 25px;
+    font-family: "Quicksand";
     color: maroon;
 }
