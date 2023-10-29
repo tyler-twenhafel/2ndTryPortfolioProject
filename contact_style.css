@@ -15,7 +15,6 @@ body {
 }
 
 .languages {
-    border: 5px solid black;
     display: grid;
     width: 500px;
     grid-template-columns: 500px 1200px;
@@ -23,7 +22,7 @@ body {
 }
 
 #languages_img {
-    width: 350px;
+    width: 400px;
     margin: 75px;
 }
 
@@ -31,7 +30,7 @@ body {
     font-family: "Quicksand";
     font-size: 25px;
     margin-left: 100px;
-    margin-top: 50px;
+    margin-top: 70px;
     width: 800px;
 }
 
