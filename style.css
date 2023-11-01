@@ -101,16 +101,6 @@ h2 {
     color: maroon;
 }
 
-@media only screen and (min-device-width: 500px) and (max-device-width: 8000px) {
-    #frederick_md {
-        display: hidden;
-    }
-
-    .fred_img_text {
-        display: hidden;
-    }
-}
-
 @media only screen and (min-width: 320px) and (max-width: 480px) {
     h1 {
         font-size: 8em;
