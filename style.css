@@ -26,7 +26,7 @@ h2 {
 .fred_img_text {
     position: absolute;
     bottom: 11.5em;
-    left: 56.25em;
+    left: 56.5em;
     color: white;
     background-color: gray;
 }
@@ -103,15 +103,15 @@ h2 {
 
 @media only screen and (min-width: 320px) and (max-width: 480px) {
     h1 {
-        font-size: 8em;
+        font-size: 5em;
         width: 10em;
-        text-align: center;
+        
     }
     
     h2 {
         font-size: 2em;
         text-align: center;
-        width: 40em;
+        width: 10em;
     }
 
     #about_me {
@@ -124,30 +124,90 @@ h2 {
     }
 
     #frederick_img {
-        width: 25em;
-        position: absolute;
-        left: 55em;
-        top: 26em;
+        display: none;
     }
 
     #projects_grid {
         display: grid;
         width: 15em;
-        grid-template-rows: 15em 15em;
+        grid-template-rows: 15em 15em 15em;
+        grid-template-columns: 15em 25em;
+        row-gap: 6em;
+        column-gap: .1em;
+        margin-left: 3.75em;
+    }
+
+    #form_a_story_img, #piano_keys_img, #club_website_img {
+        width: 15em;
+        margin-top: 5em;
+        margin-left: .1em;
+    }
+
+    #form_a_story_about, #piano_keys_about, #club_website_about {
+        width: 17em;
+        margin-top: .1em;
+
+    }
+
+    .contact_link {
+        position: absolute;
+        left: 2em;
+        top: 57em;
+    }
+  }
+
+  @media only screen and (min-width: 481px) and (max-width: 768px) {
+    h1 {
+        font-size: 5em;
+        width: 15em;
+    }
+
+    h2 {
+        width: 50em;
+    }
+
+    #about_me {
+        font-size: 2.5em;
+        width: 15em;
+    }
+
+    .fred_img_text {
+        display: none;
+    }
+
+    #frederick_img {
+        width: 20em;
+        position: absolute;
+        left: 48em;
+        top: 17em;
+    }
+
+    #projects_grid {
+        display: grid;
+        width: 15em;
+        grid-template-rows: 15em 15em 15em;
+        grid-template-columns: 15em 25em;
         row-gap: 1em;
         margin-left: 3.75em;
     }
 
-    #form_a_story_img {
+    #form_a_story_img, #piano_keys_img, #club_website_img {
         width: 20em;
     }
 
-    #piano_keys_img {
-        width: 20em;
+    #form_a_story_about, #piano_keys_about, #club_website_about {
+        width: 27em;
+        margin-top: 2em;
+
     }
 
-    #club_website_img {
-        width: 20em;
+    .contact_link {
+        position: absolute;
+        left: 2em;
+        top: 46em;
     }
+  }
+
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
 
   }
