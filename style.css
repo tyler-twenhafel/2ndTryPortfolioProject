@@ -63,10 +63,10 @@ h2 {
     border: .3em solid black;
 }
 
-.grid {
+#projects_grid {
     display: grid;
     width: 31.25em;
-    grid-template-columns: 21.75em 21.75em 21.75em;
+    grid-template-columns: 21.75em 21.75em;
     column-gap: 7.8em;
     margin-left: 3.75em;
 }
@@ -74,16 +74,25 @@ h2 {
 #form_a_story_about {
     font-family: "Quicksand";
     font-size: 1.5em;
+    width: 35em;
+    margin-top: 3em;
+    margin-left: 3em;
 }
 
 #piano_keys_about {
     font-family: "Quicksand";
     font-size: 1.5em;
+    width: 35em;
+    margin-top: 3em;
+    margin-left: 3em;
 }
 
 #club_website_about {
     font-family: "Quicksand";
     font-size: 1.5em;
+    width: 35em;
+    margin-top: 3em;
+    margin-left: 3em;
 }
 
 .contact_link {
@@ -91,3 +100,64 @@ h2 {
     font-family: "Quicksand";
     color: maroon;
 }
+
+@media only screen and (min-device-width: 500px) and (max-device-width: 8000px) {
+    #frederick_md {
+        display: hidden;
+    }
+
+    .fred_img_text {
+        display: hidden;
+    }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    h1 {
+        font-size: 8em;
+        width: 10em;
+        text-align: center;
+    }
+    
+    h2 {
+        font-size: 2em;
+        text-align: center;
+        width: 40em;
+    }
+
+    #about_me {
+        font-size: 3em;
+        width: 15em;
+    }
+
+    .fred_img_text {
+        display: none;
+    }
+
+    #frederick_img {
+        width: 25em;
+        position: absolute;
+        left: 55em;
+        top: 26em;
+    }
+
+    #projects_grid {
+        display: grid;
+        width: 15em;
+        grid-template-rows: 15em 15em;
+        row-gap: 1em;
+        margin-left: 3.75em;
+    }
+
+    #form_a_story_img {
+        width: 20em;
+    }
+
+    #piano_keys_img {
+        width: 20em;
+    }
+
+    #club_website_img {
+        width: 20em;
+    }
+
+  }

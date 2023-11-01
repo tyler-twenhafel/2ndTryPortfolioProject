@@ -4,6 +4,7 @@
     <title>Portfolio</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation&family=Quicksand:wght@600&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
     <script src="script.js"></script>
@@ -13,21 +14,70 @@
     </div>
     <div class="main_section">
         <p id="about_me">Hello and welcome to my portfolio page! My name is Tyler, I'm from Frederick, MD, and here are some of my favorite projects.</p>
-        <img src="frederick_md.jpg" alt="Downtown Frederick, Marylan" id="frederick_img">
+        <img src="frederick_md.jpg" alt="Downtown Frederick, Maryland" id="frederick_img">
+            <script>
+                var photo = document.getElementById("frederick_img");
+
+                photo.addEventListener("mouseover", function() {
+                this.style.transform = "rotate(5deg)";
+                });
+
+                photo.addEventListener("mouseleave", function() {
+                this.style.transform = "rotate(0deg)";
+                });
+            </script>
         <div class="fred_img_text">Baker Park in my hometown Frederick, Maryland</div>
     </div>
-    <div id="projects">
+    <div id="projects_grid">
         <img src="form_a_story_ss.png" id="form_a_story_img">
-        <img src="piano_keys_ss.png" id="piano_keys_img">
-        <img src="club_website_ss.png" id="club_website_img">
-    </div>
-    <div class="grid">
+            <script>
+                var photo = document.getElementById("form_a_story_img");
+
+                photo.addEventListener("mouseover", function() {
+                this.style.transform = "rotate(5deg)";
+                });
+
+                photo.addEventListener("mouseleave", function() {
+                this.style.transform = "rotate(0deg)";
+                });
+            </script>
         <p id="form_a_story_about">The Form-A-Story website is a fun site that helps you form a story! This site uses HTML, CSS, and JavaScript. There are multiple input spots that suggest what to put in the boxes, then the user presses the "Form My Story!" button and a new page is brought up that shows the user's chosen entries in story form!</p>
+        <img src="piano_keys_ss.png" id="piano_keys_img">
+            <script>
+                var photo = document.getElementById("piano_keys_img");
+
+                photo.addEventListener("mouseover", function() {
+                this.style.transform = "rotate(5deg)";
+                });
+
+                photo.addEventListener("mouseleave", function() {
+                this.style.transform = "rotate(0deg)";
+                });
+            </script>
         <p id="piano_keys_about">This Piano Player site gives instructions on how to play the working piano. When the user clicks the "Line 2" button, line 2 is brought up and a "Line 3" button appears. It goes through the whole Happy Birthday song and then the user is given an option to repeat. I used HTML, CSS, and also JavaScript.</p>
+        <img src="club_website_ss.png" id="club_website_img">
+            <script>
+                var photo = document.getElementById("club_website_img");
+
+                photo.addEventListener("mouseover", function() {
+                this.style.transform = "rotate(5deg)";
+                });
+
+                photo.addEventListener("mouseleave", function() {
+                this.style.transform = "rotate(0deg)";
+                });
+            </script>
         <p id="club_website_about">The Rick and Morty Fanclub website is a simple site that uses basic HTML and CSS. There is not much interactivity but it was a great opportunity to practice design and styling. It was one of the first projects I did with ease, it represents confidence to me. Even if you are just starting out, celebrate the small victories!</p>
     </div>
     <div>
         <a href="contact.html" class="contact_link">About/Contact Me</a>
+            <script>
+                function enlargeLink(link) {
+                    link.style.fontSize = "30px";
+                }
+
+                document.querySelectorAll("a").forEach(enlargeLink);
+            </script>
     </div>
 </body>
 </html>
